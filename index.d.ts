@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,39 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var resolveGetter = require( '@stdlib/array-base-resolve-getter' );
-
-
-// MAIN //
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Returns the first element of an array-like object.
 *
-* @param {Collection} arr - input array
-* @returns {*} - first element
+* @param arr - input array
+* @returns first element
 *
 * @example
-* var out = first( [ 1, 2, 3 ] );
+* var arr = [ 1, 2, 3 ];
+*
+* var out = first( arr );
 * // returns 1
 */
-function first( arr ) {
-	var get;
-
-	if ( arr.length === 0 ) {
-		return;
-	}
-	// Resolve an accessor for retrieving input array elements:
-	get = resolveGetter( arr );
-
-	// Return the first element:
-	return get( arr, 0 );
-}
+declare function first<T = unknown>( arr: Collection<T> ): T;
 
 
 // EXPORTS //
 
-module.exports = first;
+export = first;
