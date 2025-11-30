@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-11-30)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`985e111`](https://github.com/stdlib-js/stdlib/commit/985e1117c5836c62d3d9fca351c4815cfa099913) - **docs:** refactor example _(by Athan Reines)_
 -   [`3f48135`](https://github.com/stdlib-js/stdlib/commit/3f48135698dc83762b7b304b748a783eb5813fed) - **docs:** clean-up code in TSDoc examples _(by Philipp Burckhardt)_
 -   [`a147b7d`](https://github.com/stdlib-js/stdlib/commit/a147b7d6ef754925120fcc7bdec2b40842a3615a) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 
@@ -25,8 +26,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
