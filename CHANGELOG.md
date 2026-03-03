@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-03)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`71a3394`](https://github.com/stdlib-js/stdlib/commit/71a339452ce742461f52af49a9767fdacfe87ee7) - **bench:** refactor to use string interpolation in `array/base/first` [(#10647)](https://github.com/stdlib-js/stdlib/pull/10647) _(by Rohit R Bhat)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Rohit R Bhat
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
